@@ -1,0 +1,14 @@
+{
+  "name": "my-bootcamp-1-exercise",
+  "version": "1.0.0",
+  "description": "Boot Camp Exercise",
+  "main": "app/findMinMaxCode.js",
+  "scripts": {
+    "test": "jasmine Test/findMinMaxTest.js"
+  },
+  "author": "Ajaps Franklin",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
