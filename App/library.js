@@ -7,8 +7,27 @@ function findMinMax(myArray){
     else return [myArray[0], myArray[myArray.length-1]];    
 }
 
+
+//fizzBuzz function
+function fizzBuzz(myNumber){
+    if(myNumber==0)
+    return 0;
+    else{
+    var myOutput="";
+    if(myNumber%3!=0 & myNumber%5!=0)
+    return myNumber;
+    else{
+    if(myNumber%3==0)
+    myOutput=myOutput + "Fizz";
+    if(myNumber%5==0)
+    myOutput=myOutput +"Buzz";
+    }}
+return myOutput;
+}
+
 module.exports = {
-    findMinMax : findMinMax
+    findMinMax : findMinMax,
+    fizzBuzz : fizzBuzz
 }
 
 
