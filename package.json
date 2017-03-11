@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jasmine Test/findMinMaxTest.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/framky007/Andela-BootCamp-Day1.git"
+  },
   "author": "Ajaps Franklin",
   "license": "ISC",
   "devDependencies": {
